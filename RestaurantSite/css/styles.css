@@ -354,13 +354,21 @@ section hr{
 }
 
 /* Extra small devices*/
-@media (max-width: 376px) {
+@media (max-width: 479px) {
   #menu-tile, #specials-tile {
     width: 335px;
     margin: 0 auto 15px;
   }
   .navbar-brand h1 {
     font-size: 6vw;
+  }
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
   }
 }
 
